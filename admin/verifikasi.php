@@ -17,8 +17,8 @@
   <div class="row" style="height: 100vh">
     <div class="col-3">
      <!-- SIDEBAR -->
-        <?php
-        $page = 1; 
+        <?php 
+        $page = 3;
         require "view/sidebar.php"?>
      <!-- SIDEBAR -->
     </div>

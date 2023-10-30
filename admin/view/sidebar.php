@@ -14,9 +14,9 @@ $active4 = ($page == 4) ?"active":"";
 
 <div class="bg-dark p-4 h-100">
         <ul class="list-group">
-          <a href="#" class="list-group-item list-group-item-action mb-3 <?= $active1 ?>">Data Tribun</a>
-          <a href="#" class="list-group-item list-group-item-action mb-3 <?= $active2 ?>">Data Pertandingan</a>
-          <a href="#" class="list-group-item list-group-item-action mb-3 <?= $active3 ?>">Verifikasi</a>
-          <a href="#" class="list-group-item list-group-item-action mb-3 <?= $active4 ?>">Data Penonton</a>
+          <a href="./tribun.php" class="list-group-item list-group-item-action mb-3 <?= $active1 ?>">Data Tribun</a>
+          <a href="./pertandingan.php" class="list-group-item list-group-item-action mb-3 <?= $active2 ?>">Data Pertandingan</a>
+          <a href="./verifikasi.php" class="list-group-item list-group-item-action mb-3 <?= $active3 ?>">Verifikasi</a>
+          <a href="./data-penonton.php" class="list-group-item list-group-item-action mb-3 <?= $active4 ?>">Data Penonton</a>
         </ul>
 </div>
